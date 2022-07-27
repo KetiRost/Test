@@ -1,15 +1,25 @@
 /*saTaurebi*/
 
 
-.fortitles {
+/*.fortitles {
 	width: 1089px;
-	/*height: 130px;*/
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.first-big-box {
+	width: 1089px;
+	margin-top: 86px;
+	margin-bottom: 131px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .title11 {
 	font-size: 14px;
 	color: #5863f8;
+	text-transform: uppercase;
 }
 
 
@@ -18,15 +28,25 @@
 	font-size: 42px;
 	width: 421px;
 	margin-top: 17px;
+
 }
-.title_13 {;
-	font-family: "ALK Life", sans-serif;
-	font-size: 42px;
-	width: 421px;
-	margin-top: 17px;}
+
 
 /*left-right-box*/
 
+.box-left {
+	width: 537px;
+	height: 191px;
+	background: #f8f8f8;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 60px;
+}
+
+.block-image {
+	width: 169px;
+	vertical-align: middle;
+}
 
 .container1 {
 	width: 330px;
@@ -42,6 +62,7 @@ font-size: 14px;
 width: 235px;
 margin-top: 27px;
 display: inline-block;
+text-transform: uppercase;
 }
 
 .title2 {
@@ -49,23 +70,7 @@ display: inline-block;
 	width: 235px;
 	display: inline-block;
 	margin-top: 15px;
-}
-
-
-.box-left {
-	width: 537px;
-	height: 191px;
-	background: #f8f8f8;
-	display: inline-block;
-	margin-right: 15px;
-	margin-top: 60px;
-}
-
-.box-right {
-	width: 537px;
-	height: 191px;
-	background: #be2b2b;
-	display: inline-block;
+	font-style: italic;
 }
 
 .texte1 {
@@ -76,26 +81,53 @@ display: inline-block;
 	height: 57px;
 	display: inline-block;
 	margin-top: 14px;
+	text-indent: 10px;
 }
 
 
-.block-image {
-	width: 169px;
-	vertical-align: middle;
+
+.box-right {
+	width: 537px;
+	height: 191px;
+	background: #be2b2b;
+	display: inline-block;
 }
 
-.part1 {
+
+
+.second-big-box {
+	width: 1089px;
+	margin-top: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 163px;
+}
+
+.title_13 {;
+	font-family: "ALK Life", sans-serif;
+	font-size: 42px;
+	width: 421px;
+	margin-top: 17px;
+	margin-bottom: 72px;
+}
+
+/*.part1 {
 	margin-top: 86px;
 	margin-bottom: 131px;
 	margin-left: auto;
 	margin-right: auto;
-}
+}*/
 
 /*blogi*/
 
 .box1_1 {
 	width: 353px;
 	display: inline-block;
+}
+
+
+.second-image {
+	width: 353px;
 }
 
 .box1_2 {
@@ -117,7 +149,7 @@ font-size: 14px;
 width: 235px;
 margin-top: 27px;
 display: inline-block;
-
+text-transform: uppercase;
 }
 
 .title1_2 {
@@ -127,6 +159,7 @@ display: inline-block;
 	width: 235px;
 	display: inline-block;
 	margin-top: 15px;
+	font-style: oblique;
 
 }
 
@@ -147,19 +180,7 @@ display: inline-block;
 
 }
 
-.first-big-box {
-	width: 1089px;
-	margin-bottom: 163px;
-	margin-left: auto;
-	margin-right: auto;
 
-}
 
-.second-big-box {
-	width: 1089px;
-	margin-top: 72px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 163px;
-}
+
 
